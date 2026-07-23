@@ -408,3 +408,36 @@ footer{
     }
 
 }
+/* Completed Projects */
+
+.completed-project {
+    margin: 30px 0;
+}
+
+.completed-project h5 {
+    font-size: 1.2rem;
+    color: #00d9ff;
+    margin-bottom: 12px;
+}
+
+.completed-project p {
+    line-height: 1.8;
+    margin-bottom: 18px;
+    color: #ddd;
+}
+
+.project-card hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin: 35px 0;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.coming-soon {
+    opacity: 0.8;
+}
