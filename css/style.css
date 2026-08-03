@@ -456,3 +456,20 @@ img{
     max-width:100%;
     height:auto;
 }
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+#about h2{
+    margin-bottom:30px;
+}
+
+#about p{
+    max-width:760px;
+    line-height:1.9;
+    margin-bottom:28px;
+}
+
+#about p:last-child{
+    margin-bottom:0;
+}
