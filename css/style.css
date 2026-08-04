@@ -343,15 +343,22 @@ footer{
 }
 
 .logo{
-    margin-bottom:12px;
+    font-size:2rem;
+    text-align:center;
+    margin-bottom:10px;
 }
 
 .nav-links{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:18px;
+    gap:14px;
 }
+
+.nav-links a{
+        font-size:0.95rem;
+    }
+
 
     .hero{
         flex-direction:column-reverse;
