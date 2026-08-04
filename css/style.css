@@ -411,6 +411,7 @@ nav{
 
     .hero{
         flex-direction:column-reverse;
+        align-items:center;
         justify-content:center;
         text-align:center;
         gap:35px;
@@ -418,8 +419,11 @@ nav{
     }
 
     .hero-content{
-        max-width:100%;
-    }
+    max-width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
 
     .hero h1{
         font-size:2.8rem;
@@ -437,9 +441,19 @@ nav{
     margin:auto;
 }
 
+    .hero-image{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+
     .hero-image img{
     width:180px;
     height:180px;
+    display:block;
+    margin:0 auto;
 }
 
     .buttons{
