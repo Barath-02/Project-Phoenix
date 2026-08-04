@@ -414,8 +414,8 @@ nav{
         align-items:center;
         justify-content:center;
         text-align:center;
-        gap:35px;
-        padding:130px 20px 50px;
+        gap:25px;
+        padding:120px 20px 50px;
     }
 
     .hero-content{
