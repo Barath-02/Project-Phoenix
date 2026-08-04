@@ -473,3 +473,17 @@ img{
 #about p:last-child{
     margin-bottom:0;
 }
+/* ===========================
+   SCROLL ANIMATION
+=========================== */
+
+.fade-section{
+    opacity:0;
+    transform:translateY(40px);
+    transition:opacity .8s ease, transform .8s ease;
+}
+
+.fade-section.show{
+    opacity:1;
+    transform:translateY(0);
+}
