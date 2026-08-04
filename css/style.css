@@ -163,7 +163,7 @@ nav{
 
     list-style:none;
 
-    gap:35px;
+    gap:20px;
 
 }
 
@@ -426,23 +426,37 @@ nav{
     }
 
     .hero h2{
-        font-size:1.8rem;
-    }
+    font-size:1.45rem;
+    line-height:1.3;
+}
 
     .description{
-        font-size:1rem;
-        line-height:1.7;
-    }
+    font-size:.95rem;
+    line-height:1.8;
+    max-width:330px;
+    margin:auto;
+}
 
     .hero-image img{
-        width:200px;
-        height:200px;
-    }
+    width:180px;
+    height:180px;
+}
 
     .buttons{
-        justify-content:center;
-        flex-wrap:wrap;
-    }
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.buttons .btn{
+
+    width:220px;
+
+}
 
     section{
         padding:55px 20px;
